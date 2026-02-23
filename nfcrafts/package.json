@@ -6,9 +6,9 @@
   ],
   "scripts": {
     "install:nfcrafts": "npm install --workspace nfcrafts",
-    "dev": "npm run dev --workspace nfcrafts",
-    "build": "npm run build --workspace nfcrafts",
-    "start": "npm run start --workspace nfcrafts",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
     "lint": "npm run lint --workspace nfcrafts"
   }
 }
