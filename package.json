@@ -1,0 +1,14 @@
+{
+  "name": "nfc_website",
+  "private": true,
+  "workspaces": [
+    "nfcrafts"
+  ],
+  "scripts": {
+    "install:nfcrafts": "npm install --workspace nfcrafts",
+    "dev": "npm run dev --workspace nfcrafts",
+    "build": "npm run build --workspace nfcrafts",
+    "start": "npm run start --workspace nfcrafts",
+    "lint": "npm run lint --workspace nfcrafts"
+  }
+}
