@@ -8,7 +8,7 @@
     "install:nfcrafts": "npm install --workspace nfcrafts",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
     "lint": "npm run lint --workspace nfcrafts"
   }
 }
